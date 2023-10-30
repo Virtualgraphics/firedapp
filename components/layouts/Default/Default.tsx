@@ -18,7 +18,7 @@ const Default: FC<{ children: ReactNode; pageName: string }> = ({ children, page
    
 
 
-    <div className="w-full h-full p-0 m-0 bg-gradient-to-b from-lime-950 to-yellow-300">
+    <div className="w-full h-full p-0 m-0 bg-gradient-to-b from-red-950 to-red-800">
       {children}
     </div>
 

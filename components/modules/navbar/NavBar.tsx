@@ -8,15 +8,15 @@ function NavBar() {
  const [isOpen, setIsOpen] = useState(false);
 
  return (
-   <nav className="flex items-center justify-between flex-wrap p-4 border-b border-yellow-100 bg-blue-900">
+   <nav className="flex items-center justify-between flex-wrap p-4 border-b border-yellow-200 bg-black">
      <div className="flex items-center flex-shrink mr-6 lg:mr-72">
 
      <Image
-              className=" h-10 w-auto lg:h40 lg:ml-10 sm:w-auto justfy-left"
-              src="/assets/varan_logo_40.png"
-              alt="Immortal Coil Logo"
-              width={329}
-              height={42}
+              className=" h-10 w-auto lg:h-57 lg:ml-10 sm:w-auto justfy-left"
+              src="/assets/km_burningLogo_yellow.svg"
+              alt="Burning Circle Logo"
+              width={57}
+              height={57}
             />
      </div>
      <div className="block lg:hidden ">
@@ -43,26 +43,24 @@ function NavBar() {
      <div
        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
      >
-       <div className="text-md font-Proza lg:flex-grow">
+       <div className="text-3xl font-semibold font-Amethysta lg:flex-grow">
 
-         <Link href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400 hover:text-blue-300 font-Proza text-lg font-Skranji tracking-wider">
-           ISLAND
+         <Link href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400 hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
+           COVEN
          </Link>
-         <Link href="games" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400 hover:text-blue-300 font-Proza text-lg font-Skranji tracking-wider">
-           GAMES
+         
+         <Link href="shop" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
+           SHOP
          </Link>
-         <Link href="webtoon" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-blue-300 font-Proza text-lg font-Skranji tracking-wider">
-           WEBTOON
+
+         <Link href="myPacks" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
+           MY PACKS
          </Link>
-         <Link href="nftmint" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-blue-300 font-Proza text-lg font-Skranji tracking-wider">
-           NFTs
+
+         <Link href="myCards" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
+           MY CARDS
          </Link>
-         <Link href="token" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-blue-300 font-Proza text-lg font-Skranji tracking-wider">
-           TOKENS
-         </Link>
-         <Link href="marketplace" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-blue-300 font-Proza text-lg  font-Skranji tracking-wider">
-           MARKETPLACE
-         </Link>
+         
        </div>
        <div className="py-2 mr-12">
        <ConnectWallet />

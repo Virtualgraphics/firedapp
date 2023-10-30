@@ -10,7 +10,7 @@ const HomePage: NextPage = () => {
   return (
   
     
-    <Default pageName="SAVAGE VARAN SOCIETY">
+    <Default pageName="Kaos Moon - Into the Burning Circle">
 
     <Home />
   
