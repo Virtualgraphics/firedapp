@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body
+{
+width: 100%; 
+height: 100%;  
+background-image: linear-gradient(#4C0401, #770500) ;
+
+}
+
+#root,
+
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Amethysta", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.connect {
+  margin-bottom: 2rem;
+  width: 230px;
+}
