@@ -15,8 +15,8 @@ const Games = () => {
       return (
 
 
-        <div className="justify-center px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:pt-6">
-        <div className="max-w-screen-sm sm:text-center sm:mx-auto">
+        <div className="justify-center px-4 py-2 mx-auto ">
+        <div className="w-1/2 sm:text-center sm:mx-auto">
           
   
             <Image
@@ -31,21 +31,21 @@ const Games = () => {
           
             <hr className="w-full  border-yellow-200" />
             <p className="text-base font-semibold tracking-wide text-yellow-200 lg:text-2xl  md:text-lg sm:px-4 py-8 font-Acme">
-           Play the KAOS MOON Ritual Defi and the Trading Card Game and earn rewards. 
+           Play the KAOS MOON Ritual Defi and the Trading Card Games and earn rewards. 
             </p>
 
             
 
 <GameCard/>
 
-
+</div>
 
 <div className="flex justify-center py-10">
 <p className='text-white text-lg'>Technical details, white paper and tokenomics are coming soon and will be published on our website.</p>
 </div>
 
 
-              </div>
+              
 </div>
 
 

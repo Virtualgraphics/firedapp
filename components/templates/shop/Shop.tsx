@@ -59,25 +59,26 @@ const { contract } = useContract(MONSTERS_ADDRESS);
 
           
             <hr className="w-full  border-yellow-200" />
-            <p className="text-base font-semibold tracking-wide text-yellow-200 lg:text-2xl  md:text-lg sm:px-4 py-8 font-Acme">
-           Play the KAOS MOON Ritual Defi and the Card games and earn rewards. 
+            <p className="text-base font-semibold tracking-wide text-yellow-200 lg:text-2xl  md:text-lg sm:px-4 py-4 font-Acme">
+           Mint the haunting and beautiful Beast Cards for the KAOS MOON Game. Fully animated cards will be available after the mint. 
             </p>
 
 
 
 
-<div className="justify-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:pt-10">
+<div className="justify-center mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 ">
     
 
         
        
 
-        <p className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
-       You can see your animated cards immediately after the mint on Opensea. Or on the KAOS MOON Opensea page.
-       <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className="bg-black p-4 text-white hover:text-yellow-100 rounded-xl">View on Opensea</button></Link>
-        </p>
+        <div className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
+       You can see your animated cards immediately after the mint.
+       <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className="bg-black p-6 text-white hover:text-yellow-100 rounded-xl my-7">View on Opensea</button></Link>
         </div>
         </div>
+        </div>
+        <div className="text-yellow-100 text-center text-xl">Each card has a max supply of 75 and you can claim up to 5 NFTs per wallet </div>
 
             {!nfts ? (
                 <div className="flex justify-center mx-auto p-24 ">
@@ -99,23 +100,23 @@ const { contract } = useContract(MONSTERS_ADDRESS);
 
 <div className=" pt-14 m-auto  justify-center">
 <h1 className=" text-yellow-100 text-2xl text-center  font-Jost">
-              Use your IMMORTAL COIL tokens for the following cool things:
+              Use your KAOS MOON NFTs for the following cool things:
             </h1></div>
 
       <div className="w-4/5 m-auto grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mt-10 sm:grid-cols-2">
         <div className="duration-300 transform bg-red-950/30 border-l-4 border-deep-purple-accent-900 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5 rounded-r shadow-sm">
-            <h6 className="mb-2 leading-5 text-yellow-200 font-Jost">Earn rewards in the RPG</h6>
+            <h6 className="mb-2 leading-5 text-yellow-200 font-Jost">Earn rewards in the TCG</h6>
             <p className="text-sm text-white">
-              Get rewards for missions and quests successfully accomplished in the Memento Mori RPG and trade tokens for in-game NFTs.
+              Get rewards for missions and quests successfully accomplished in Into the Burning Circle TCG and trade tokens for in-game NFTs.
             </p>
           </div>
         </div>
         <div className="duration-300 transform bg-red-950/30 border-l-4 border-deep-purple-accent-400 hover:-translate-y-2 rounded-2xl">
           <div className="h-full p-5  rounded-r shadow-sm">
-            <h6 className="mb-2  leading-5 text-yellow-200 font-Jost">Boost your Vampire</h6>
+            <h6 className="mb-2  leading-5 text-yellow-200 font-Jost">Boost Rituals and Spells</h6>
             <p className="text-sm text-white">
-              Use various monsters to boost the powers of your vampire and earn $BLOOD tokens in the BLoodhunt DeFi game.</p>
+              Use various totems to powers up your rituals and spells and earn $KAOS tokens in the Ritual DeFi game.</p>
           </div>
         </div>
         <div className="duration-300 transform bg-red-950/30 border-l-4 border-deep-purple-accent-400 hover:-translate-y-2 rounded-2xl">
@@ -124,7 +125,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
               
             </h6>
             <p className="text-sm text-white">
-              Use the tokens to participate in the anime and webtoons and get rewarded for each correctly answered question.
+              Use the NFTs and tokens to participate in the anime and webtoons and get rewarded for being part of the community.
             </p>
             
           </div>
@@ -132,7 +133,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
         </div>
 <div className="py-12 w-full justify-items-center mx-auto">
 
-  <h1 className="text-lg text-center text-white font-Jost py-2">Contract Addresses on Bscscan:</h1>
+  <h1 className="text-lg text-center text-white font-Jost py-2">Contract Addresse on Polyscan:</h1>
            
             <p className="text-sm text-center text-white font-Jost py-2">
               KAOS MOON NFTs (ERC-1155): 0xA7582949C41E7F2712767e04f115DfCF7EfFC69A
