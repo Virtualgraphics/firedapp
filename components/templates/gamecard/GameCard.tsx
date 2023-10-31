@@ -52,7 +52,7 @@ Coming soon
               TRADING GARD GAME
               </h5>
               <p className="mb-5 text-white text-lg font-Jost">
-              Battle monster and mythological creatures in the Kaos Moons trading card game with RPG elements.
+              Battle monster and mythological creatures in the Kaos Moons trading card game with RPG elements, similar to Hearthstone and MtG.
               </p>
              
               <div className=" flex items-center justify-center py-4">
