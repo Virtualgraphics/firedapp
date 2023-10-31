@@ -54,7 +54,7 @@ function NavBar() {
          </Link>
          
          <Link href="shop" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
-           SHOP
+          MINT NFT
          </Link>
 
          

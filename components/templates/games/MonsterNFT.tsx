@@ -47,9 +47,13 @@ function MonsterNFT({ nft }: Props) {
             /></div>
             <div className=" text-yellow-100 text-2xl text-bold  text-center  pt-4 ">{nft.metadata.name}</div>
             {!isLoading && data ? (
-                <div className="text-white text-center py-2">Cost: {ethers.utils.formatEther(data?.price)}{" " + data?.currencyMetadata.symbol}</div>
+                <div className="text-yellow-100 text-center py-2 m-auto">Cost: {ethers.utils.formatEther(data?.price)}{" " + data?.currencyMetadata.symbol}</div>
             ) :(
-                <div className='text-xl text-white'>Loading...</div>
+                <div className="text-lg text-yellow-100 text-center m-auto">
+                  
+                 Loading...
+                  
+                  </div>
             )}
 
 <div className="py-4 flex items-center justify-center m-auto rounded-2xl border-none">

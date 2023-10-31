@@ -25,6 +25,7 @@ import { useRouter } from "next/router";
 import React from 'react';
 import MonsterNFT from "../games/MonsterNFT";
 
+
 import Link from "next/link";
 const myNftDropContractAddress = "0xD671735b14ddb2DA84433bf291f00355de068992";
 
@@ -73,6 +74,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
 
         <p className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
        You can see your animated cards immediately after the mint on Opensea. Or on the KAOS MOON Opensea page.
+       <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className="bg-black p-4 text-white hover:text-yellow-100 rounded-xl">View on Opensea</button></Link>
         </p>
         </div>
         </div>

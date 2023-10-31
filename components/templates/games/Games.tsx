@@ -31,7 +31,7 @@ const Games = () => {
           
             <hr className="w-full  border-yellow-200" />
             <p className="text-base font-semibold tracking-wide text-yellow-200 lg:text-2xl  md:text-lg sm:px-4 py-8 font-Acme">
-           Play the KAOS MOON Ritual Defi and the Card games and earn rewards. 
+           Play the KAOS MOON Ritual Defi and the Trading Card Game and earn rewards. 
             </p>
 
             
