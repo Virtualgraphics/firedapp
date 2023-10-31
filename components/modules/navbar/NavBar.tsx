@@ -43,7 +43,7 @@ function NavBar() {
      <div
        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
      >
-       <div className="text-3xl font-semibold font-Amethysta lg:flex-grow">
+       <div className="text-3xl  font-Amethysta lg:flex-grow text-center ">
 
          <Link href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400 hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
            COVEN
@@ -57,13 +57,7 @@ function NavBar() {
            SHOP
          </Link>
 
-         <Link href="myPacks" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
-           MY PACKS
-         </Link>
-
-         <Link href="myCards" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-6  text-yellow-400  hover:text-red-600 font-Proza text-lg font-Amethysta tracking-wider">
-           MY CARDS
-         </Link>
+         
          
        </div>
        <div className="py-2 mr-12">

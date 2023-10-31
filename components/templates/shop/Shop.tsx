@@ -72,7 +72,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
        
 
         <p className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
-       Purchase MONSTER HUNT NFTs with $BLOOD to boost your Vampires power and gain more $BLOOD. 
+       You can see your animated cards immediately after the mint on Opensea. Or on the KAOS MOON Opensea page.
         </p>
         </div>
         </div>
@@ -131,11 +131,9 @@ const { contract } = useContract(MONSTERS_ADDRESS);
 <div className="py-12 w-full justify-items-center mx-auto">
 
   <h1 className="text-lg text-center text-white font-Jost py-2">Contract Addresses on Bscscan:</h1>
-            <p className="text-sm text-center text-white font-Jost px-2">
-             Founders Edition NFTs: 0xD671735b14ddb2DA84433bf291f00355de068992
-            </p>
+           
             <p className="text-sm text-center text-white font-Jost py-2">
-              Monster NFTs: 0x7623dCee1c3De24129CC15a8398F7d8731bDAccB
+              KAOS MOON NFTs (ERC-1155): 0xA7582949C41E7F2712767e04f115DfCF7EfFC69A
             </p></div> 
       </div>
  </div>

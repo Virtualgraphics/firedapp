@@ -5,8 +5,6 @@ import {
     Web3Button, 
     useActiveClaimCondition, 
     useContract 
-
-
 } from "@thirdweb-dev/react";
 
 import { NFT } from "@thirdweb-dev/sdk";
@@ -39,7 +37,7 @@ function MonsterNFT({ nft }: Props) {
 
     return (
 
-        <div key={nft.metadata.id} className='mx-auto justify-items-center py-12 border-white'>
+        <div key={nft.metadata.id} className='mx-auto justify-items-center py-12'>
             <div className="rounded-3xl ">
             <MediaRenderer 
                 src={nft.metadata.image}
