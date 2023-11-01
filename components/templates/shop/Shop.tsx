@@ -72,7 +72,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
         
        
 
-        <div className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Jost">
+        <div className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Roboto sm:justify-center">
        You can see your animated cards immediately after the mint.
        <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className="bg-black p-6 text-white hover:text-yellow-100 rounded-xl my-7">View on Opensea</button></Link>
         </div>
@@ -85,7 +85,7 @@ const { contract } = useContract(MONSTERS_ADDRESS);
                     
                 </div>
             ) : (
-                <div className="grid grid-cols-3 gap-4 ">
+                <div className="grid sm:grid-cols-1     md:grid-cols-2   lg:grid-cols-3 gap-4 ">
                     {nfts?.map((nftItem) => (
                         <MonsterNFT
                             key={nftItem.metadata.id}
