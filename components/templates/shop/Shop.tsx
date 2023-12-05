@@ -72,9 +72,16 @@ const { contract } = useContract(MONSTERS_ADDRESS);
         
        
 
-        <div className="text-base text-white lg:text-lg md:text-lg sm:px-4 pt-6 font-Roboto sm:justify-center">
-       You can see your animated cards immediately after the mint.
-       <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className="bg-black p-6 text-white hover:text-yellow-100 rounded-xl my-7">View on Opensea</button></Link>
+<div className="grid grid-row-2 gap-2">
+        <div>
+        
+        <h1 className=" text-center font-Roboto text-white sm:md md:text-lg lg:text-2xl">
+       You can see your animated cards after the mint. </h1></div>
+       <div>
+       <Link href=" https://opensea.io/collection/kaos-moon-into-the-burning-circle"><button className=" flex m-auto justify-center bg-black p-6 text-white hover:text-yellow-100 rounded-xl my-7">View on Opensea</button></Link>
+       </div>
+
+        
         </div>
         </div>
         </div>

@@ -34,9 +34,9 @@ import Image from 'next/image'
 <h1 className="py-4 text-center font-Amethysta text-yellow-100 lg:text-4xl sm:lg">
 Get the KAOS MOON: BEAST COLLECTION CARDS in the shop!
 </h1>
-<Link href="/shop">
-<button className="flex items-center justify-center  mx-auto bg-black text-white hover:text-yellow-200 p-4 rounded-2xl ">SHOP NOW</button>
-</Link>
+
+<button className="flex items-center justify-center  mx-auto bg-black text-white hover:text-yellow-200 p-4 rounded-2xl ">SHOP IS IN MAINTENANCE MODE</button>
+
 </div>
 
 
